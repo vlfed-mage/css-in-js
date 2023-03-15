@@ -6,6 +6,8 @@ import geomanistBookWoff2 from './assets/fonts/geomanist/geomanist-book.woff2';
 import cornerstoneWoff from './assets/fonts/cornerstone.woff';
 import cornerstoneWoff2 from './assets/fonts/cornerstone.woff2';
 
+import Inner from './Inner';
+
 const globalStyles = css`
     @font-face {
         font-family: 'geomanist';
@@ -109,6 +111,7 @@ const App = () => {
             <Global styles={globalStyles} />
             <div>
                 <h2>test styles</h2>
+                <Inner />
             </div>
         </>
     );
