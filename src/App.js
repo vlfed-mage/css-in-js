@@ -7,6 +7,7 @@ import cornerstoneWoff from './assets/fonts/cornerstone.woff';
 import cornerstoneWoff2 from './assets/fonts/cornerstone.woff2';
 
 import Inner from './Inner';
+import Header from './Header';
 
 const globalStyles = css`
     @font-face {
@@ -110,6 +111,7 @@ const App = () => {
         <>
             <Global styles={globalStyles} />
             <div>
+                <Header />
                 <h2>test styles</h2>
                 <Inner />
             </div>
